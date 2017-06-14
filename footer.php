@@ -12,7 +12,7 @@
     <a title="simon pilati" href="http://www.simonquasar.net/" target="_blank">simonquasar</a></small>
     <br>
     <a title="Nicholas Kearney" href="http://nicholaskearney.com/" target="_blank">
-        <img src="logoBlueTH.png" style="width: 12px;vertical-align: middle;" > <small>nicholas k</small>
+        <img src="img/logoBlueTH.png" style="width: 12px;vertical-align: middle;" > <small>nicholas k</small>
     </a>
 </div>
 </body>
