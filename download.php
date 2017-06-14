@@ -1,6 +1,11 @@
 <?php
 session_start();
 include 'functions.php';
+//check_cookies();
+/*is_logged_in();
+cookie_match($logged_in);
+print_r($_SESSION);*/
+
 include 'header.php';
 ?>
 
