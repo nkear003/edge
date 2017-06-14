@@ -1,11 +1,9 @@
-<?php 
+<?php
 session_start();
-//include 'auth.php';
-include 'header.php';
-//include 'connect.php';
 include 'functions.php';
-//require 'lib.php';
+include 'header.php';
 ?>
+
 <div class="tabs">
 	<div class="tab files active"><a href="index.php"><img src="img/upload.png" alt="" class="icon">My Releases</a></div>
 	<div class="tab info"><a href="details.php"><img src="img/info-inactive.png" alt="" class="icon">Account Information</a></div>
@@ -24,8 +22,8 @@ include 'functions.php';
 ////////////////
 
 $from_date = $_SESSION['date'];
-echo $to_date;
 $to_date = date('Y-m-d', strtotime('+1 year', strtotime($from_date)) );
+//echo $to_date;
 
 ////////////////
 //SQL code to get songs between dates
