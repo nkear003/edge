@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# we're behind nginx ssl proxy, hence the non-standard check for no-SSL:
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
