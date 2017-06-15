@@ -39,7 +39,7 @@ $result = $link->query($sql);
 
 echo "<table>";
 echo "<tr>
-        <th>SYYK###</th>
+        <th>Catalogue</th>
         <th>Artist</th>
         <th>Name</th>
         <th>Release Date</th>
