@@ -27,6 +27,7 @@ if (isset($_COOKIE['secret'])) {
 
         $_SESSION['name'] = $row['name'];
         $_SESSION['date'] = $row['dt'];
+        $_SESSION['years'] = $row['yrs'];
 
     }
 

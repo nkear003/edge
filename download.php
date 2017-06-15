@@ -22,7 +22,8 @@ include 'header.php';
 ////////////////
 
 $from_date = $_SESSION['date'];
-$to_date = date('Y-m-d', strtotime('+1 year', strtotime($from_date)) );
+$years_of_subscription = $_SESSION['years'];
+$to_date = date('Y-m-d', strtotime('+' . $years_of_subscription . 'year', strtotime($from_date)) );
 //echo $to_date;
 
 ////////////////
