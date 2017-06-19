@@ -98,7 +98,7 @@ if(isset($_POST['submitted-info']))
 
 }
 
-mysqli_close($link);
+//mysqli_close($link);
 
 ?>
 
