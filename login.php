@@ -1,11 +1,6 @@
 <?php 
 session_start();
 //include 'functions.php';
-if (isset($_COOKIE['secret'])) {
-    echo $_COOKIE['secret'];
-} else {
-    echo 'Secret cookie is not set';
-}
 ?>
 <html>
 <head>
