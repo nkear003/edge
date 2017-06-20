@@ -1,9 +1,8 @@
 <?php
 
 $download = $_POST['download'];
-echo $download;
 
-/*$path = '/home/fuonyagency/webapps/dev_prime_php/downloads/'.$download.';' // the file made available for download via this PHP file
+$path = '/home/fuonyagency/webapps/dev_prime_php/downloads/' . $download . '.zip'; // the file made available for download via this PHP file
 $mm_type="application/octet-stream"; // modify accordingly to the file type of $path, but in most cases no need to do so
 
 header("Pragma: public");
@@ -18,4 +17,4 @@ header("Content-Transfer-Encoding: binary\n");
 
 readfile($path); // outputs the content of the file
 
-exit();*/
+exit();
