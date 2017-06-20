@@ -53,9 +53,17 @@ echo "<tr>
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
-        echo "<tr><td>" . $row["catalogue"] . "</td><td>" . $row["artist"] . "</td><td>" . $row["name"] . "</td><td>" . $row["released"] . "</td><td>" . "<a href='#' class='dl' download='downloads/" .$row["catalogue"]. ".zip'>Download</a>" . "</td></tr>";
+        echo "<tr><td>" . $row["catalogue"] . "</td><td>" . $row["artist"] . "</td><td>" . $row["name"] . "</td><td>" . $row["released"] . "</td><td>" ?> <form action="download_script.php" method="POST">
+    <button name="download" value="<?php $row["catalouge"] ?>">Download</button>
+</form> <?php "</td></tr>";
     }
 }
+
+?>
+
+<form action="download_script.php" method="POST">
+    <button name="download" value="">Download</button>
+</form>
 
 ////////////////
 // end table
