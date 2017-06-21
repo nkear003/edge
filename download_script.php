@@ -1,8 +1,10 @@
 <?php
 
+//set_time_limit(0); // no time limit
+
 $download = $_POST['download'];
 
-$path = '/home/fuonyagency/webapps/dev_prime_php/downloads/' . $download . '.zip'; // the file made available for download via this PHP file
+$path = '/home/fuonyagency/downloads/' . $download . '.zip'; // the file made available for download via this PHP file
 $mm_type="application/octet-stream"; // modify accordingly to the file type of $path, but in most cases no need to do so
 
 header("Pragma: public");
