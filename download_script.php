@@ -3,8 +3,8 @@
 $download = $_POST['download'];
 
 $path = 'https://devedge.steyoyoke.com/downloads/' . $download . '.zip'; // the file made available for download via this PHP file
-$mm_type="application/octet-stream"; // modify accordingly to the file type of $path, but in most cases no need to do so
-$headers  = get_headers($path, 1);
+$mm_type="application/octet-stream";
+$headers  = get_headers($path, 1); // fix to content length bug
 
 header("Pragma: public");
 header("Expires: 0");
