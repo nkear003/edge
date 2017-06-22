@@ -39,3 +39,4 @@ Thumbs.db
 # Other #
 ######################
 exclude.txt
+phpinfo.php
