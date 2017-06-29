@@ -71,6 +71,10 @@ echo "</table>";
 
 //$link->close();          
 
+echo '<div class="section" style="text-align:center">';
+echo 'Your subscription lasts until <span id="to_date">' . $to_date . '</span>';
+echo '</div>'
+
 ?>
 
 <?php include 'footer.php'; ?>
