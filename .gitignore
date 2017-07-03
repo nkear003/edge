@@ -40,3 +40,8 @@ Thumbs.db
 ######################
 exclude.txt
 phpinfo.php
+
+# Temp #
+######################
+.htaccess
+htaccess.txt

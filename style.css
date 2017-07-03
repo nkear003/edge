@@ -289,6 +289,6 @@ textarea {
 .qq-upload-fail .qq-upload-failed-text {
 	display:inline;
 }
-#to_date {
+#to_date, #warning {
     color: red;
 }

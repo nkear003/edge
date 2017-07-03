@@ -12,7 +12,10 @@ include 'header.php';
 <div class="section">
 	<?php 
     echo 'Welcome, ' . $_SESSION['name'] . ' below are your available downloads.'; 
-    ?>  
+    ?>
+    <div id="warning" style="margin-top:10px">
+        <p>We are experiencing some technical issues. If you have trouble with a download, please try back again later. We apologize for the inconvenience.</p>
+    </div>
 </div>
 
 <?php
