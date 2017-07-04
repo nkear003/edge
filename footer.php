@@ -7,7 +7,9 @@
 </div>
 <div id="credits" style="position: fixed;bottom: 10px;right: 10px;">
     <small>by 
-    <a title="GRRROW" href="http://www.grrrow.com/" target="_blank"><img src="http://grrrow.com/presskit/grrrow.png" style="height: 12px;vertical-align: middle;"></a> 
+    <!--<a title="GRRROW" href="http://www.grrrow.com/" target="_blank"><img src="http://grrrow.com/presskit/grrrow.png" style="height: 12px;vertical-align: middle;"></a> 
+    <br/> -->
+    <a title="GRRROW" href="http://www.grrrow.com/" target="_blank"><img src="img/grrrow.png" style="height: 12px;vertical-align: middle;"></a> 
     <br/> 
     <a title="simon pilati" href="http://www.simonquasar.net/" target="_blank">simonquasar</a></small>
     <br>
