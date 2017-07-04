@@ -40,6 +40,8 @@ Thumbs.db
 ######################
 exclude.txt
 phpinfo.php
+download_script2.php
+download_script3.php
 
 # Temp #
 ######################
